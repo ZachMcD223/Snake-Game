@@ -16,4 +16,7 @@ border: 15px solid rgb(7, 7, 96);
 padding: 50px;
 margin: 80px;
 }
- 
+ #game
+ {border-style: double;border-color: rgb(240, 240, 242);border-width: 5px;
+background-color:rgba(106, 84, 6, 0.975)
+ }
