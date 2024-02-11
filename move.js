@@ -1,11 +1,49 @@
-function control(e) {
-    if (e.keycode === 39) {
-      direction = 1; // right
-    } else if (e.keycode === 38) {
-      direction = -width; //if we press the up arrow, the snake will go ten divs up
-    } else if (e.keycode === 37) {
-      direction = -1; // left, the snake will go left one div
-    } else if (e.keycode === 40) {
-      direction = +width; // down the snake head will instantly appear 10 divs below from the current div
+document.addEventListener('keydown', function(e) {
+    
+    if (e.which === 37 && snake.dx === 0) {
+        snake.dx = -grid;
+        snake.dy = 0;
     }
-  }
+    else if (e.which === 38 && snake.dy === 0) {
+        snake.dy = -grid;
+        snake.dx = 0;
+    }
+    else if (e.which === 39 && snake.dx === 0) {
+        snake.dx = grid;
+        snake.dy = 0;
+    }
+    else if (e.which === 40 && snake.dy === 0) {
+        snake.dy = grid;
+        snake.dx = 0;
+    }
+    
+});
+
+function left() {
+    if (snake.dx === 0) {
+        snake.dx = -grid;
+        snake.dy = 0;
+    }
+};
+function right() {
+    if (snake.dx === 0) {
+        snake.dx = grid;
+        snake.dy = 0;
+    }
+};
+function up() {
+    if (snake.dy === 0) {
+        snake.dy = -grid;
+        snake.dx = 0;
+    }
+};
+function down() {
+    if (snake.dy === 0) {
+        snake.dy = grid;
+        snake.dx = 0;
+    }  
+};
+
+
+
+requestAnimationFrame(gameLoop);
