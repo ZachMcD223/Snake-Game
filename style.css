@@ -9,10 +9,11 @@ font-family: monospace;
 .Current-score
 {border-style: double;border-color: darkblue;
 }
-.grid-container{
-    background-color: rgb(0, 0, 0);
-    width: 800px;
-    border: 15px solid rgb(7, 7, 96);
-    padding: 50px;
-    margin: 80px;
-  }
+.grid-container
+{background-color: rgb(0, 0, 0);
+width: 800px;
+border: 15px solid rgb(7, 7, 96);
+padding: 50px;
+margin: 80px;
+}
+ 
