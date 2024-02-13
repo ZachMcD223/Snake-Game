@@ -1,5 +1,5 @@
 body
-{background-color: rgba(20, 19, 19, 0.908);
+{background-color:rgb(59, 56, 56);
 text-align:center;
 font-family: monospace;
 }
@@ -17,6 +17,6 @@ padding: 50px;
 margin: 80px;
 }
  #game
- {border-style: double;border-color: rgb(240, 240, 242);border-width: 5px;
+ {border-style: inset;border-color: gold; border-width: 15px;
 background-color:rgba(106, 84, 6, 0.975)
  }
