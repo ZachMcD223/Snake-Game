@@ -50,7 +50,7 @@ function gameLoop() {
 
     
     context.fillStyle = "red";
-    context.fillRect(apple.x, apple.y, grid-1, grid-1);
+    context.fillRect(apple.x, apple.y, grid+1, grid+1);
 
     
     context.fillStyle = 'green';

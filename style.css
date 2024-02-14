@@ -1,22 +1,36 @@
 body
-{background-color:rgb(59, 56, 56);
+{background:url(assets/empty-sea-beach-background.jpg);
 text-align:center;
 font-family: monospace;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .Hi-score
-{border-style: double;border-color: darkblue;border-width: 5px
+{border-style: double;
+font-size:40px;
+border-color: darkblue;
+border-width: 5px;
+margin:75px;
 }
 .Current-score
-{border-style: double;border-color: darkblue;border-width: 5px
+{border-style: double;
+font-size:40px;
+border-color: darkblue;
+border-width: 5px;
+margin:75px;
 }
 .grid-container
 {background-color: rgb(0, 0, 0);
-width: 800px;
-border: 15px solid rgb(7, 7, 96);
-padding: 50px;
-margin: 80px;
+border: 20px solid rgb(7, 7, 96);
+margin:580px;
 }
  #game
- {border-style: inset;border-color: gold; border-width: 15px;
+{border-style: inset;
+border-color: rgb(181, 81, 28); 
+border-width: 15px;
 background-color:rgba(106, 84, 6, 0.975)
  }
+.snake
+{font-size: 70px;
+}
