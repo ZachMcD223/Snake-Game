@@ -14,4 +14,4 @@ The square boundary will be designed in css and have a nice border, not just a t
 Snake will be a basic block design for the assignment with plans of enhancing later.
 I want to create multiple js files, one for movement, one for functions, and one for the hit detection.
 my goal is to first get the game functional, then add the beauty through css. Updating the background and the "food" items, as well as the layout for the rest of the page.
-I will have a simple html file and one css file with a few js files.
+I will have a simple html file and one css file with a two js files.
